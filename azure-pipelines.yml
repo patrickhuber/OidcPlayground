@@ -13,7 +13,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '''**/*.Billing.csproj'''
+    projects: '**/*.Billing.csproj'
     feedsToUse: 'select'
     versioningScheme: 'off'
 
